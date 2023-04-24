@@ -185,26 +185,10 @@ export default {
     },
   },
   mounted() {
-    switch (this.path) {
-      case "/info":
-        this.tab = 1;
-        break;
-      case "/category":
-        this.tab = 2;
-        break;
-      case "/support":
-      case "/support-transport":
-      case "/support-change":
-      case "/support-security":
-        this.tab = 3;
-        break;
-      case "/contact":
-        this.tab = 4;
-        break;
-
-      default:
-        break;
-    }
+    if(this.path.includes('/info'))         this.tab = 1;
+    if(this.path.includes('/category'))         this.tab = 2;
+    if(this.path.includes('/support'))         this.tab = 3;
+    if(this.path.includes('/contact'))         this.tab = 4;
   },
 };
 </script>
