@@ -84,7 +84,7 @@
                     <h3><span style="font-size: 90%">KẾT NỐI</span></h3>
                     <p>
                       <span style="font-size: 90%"
-                        >Email: lienhe@hoachatdaiviet.com</span
+                        >Email: congtyanthanhdanh@gmail.com</span
                       >
                     </p>
                     <div

@@ -2,10 +2,7 @@
   <v-app clipped-left>
     <v-app-bar fixed app height="80" color="white">
       <v-avatar rounded size="80px" class="mr-10">
-        <img
-          alt="Avatar"
-          src="https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet.png"
-        />
+        <img alt="Avatar" :src="require('@/assets/logo.jpg')" />
       </v-avatar>
       <v-tabs v-model="tab" align-tabs="center" grow>
         <v-tab>Trang chủ</v-tab>
@@ -77,10 +74,10 @@
                   decoding="async"
                   loading="lazy"
                   class="wp-image-1120 aligncenter"
-                  src="https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-700x400.png"
+                  :src="require('@/assets/logo.jpg')"
                   alt=""
-                  width="184"
-                  height="105"
+                  width="268"
+                  height="168"
                 />
               </p>
               <p>
@@ -102,8 +99,8 @@
               <v-icon class="mb-2 mr-2" color="blue">mdi-email</v-icon>
               <span>Email:</span>
               <span>
-                <a href="mailto:lienhe@hoachatdaiviet.com">
-                  lienhe@hoachatdaiviet.com
+                <a href="mailto:congtyanthanhdanh@gmail.com">
+                  congtyanthanhdanh@gmail.com
                 </a>
               </span>
               <br />
@@ -185,10 +182,10 @@ export default {
     },
   },
   mounted() {
-    if(this.path.includes('/info'))         this.tab = 1;
-    if(this.path.includes('/category'))         this.tab = 2;
-    if(this.path.includes('/support'))         this.tab = 3;
-    if(this.path.includes('/contact'))         this.tab = 4;
+    if (this.path.includes("/info")) this.tab = 1;
+    if (this.path.includes("/category")) this.tab = 2;
+    if (this.path.includes("/support")) this.tab = 3;
+    if (this.path.includes("/contact")) this.tab = 4;
   },
 };
 </script>

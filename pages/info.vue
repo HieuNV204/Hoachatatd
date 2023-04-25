@@ -11,23 +11,12 @@
         <div class="entry-image relative">
           <a>
             <img
-              width="1020"
-              height="583"
-              src="https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1.png"
+              width="820"
+              height="683"
+              :src="require('@/assets/logo.jpg')"
               class="attachment-large size-large wp-post-image"
               alt=""
               decoding="async"
-              srcset="
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1.png         1260w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-700x400.png  700w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-768x439.png  768w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-24x14.png     24w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-36x21.png     36w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-48x27.png     48w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-510x291.png  510w,
-                https://hoachatdaiviet.com/wp-content/uploads/2018/09/logo-daiviet1-105x60.png   105w
-              "
-              sizes="(max-width: 1020px) 100vw, 1020px"
           /></a>
         </div>
       </header>
